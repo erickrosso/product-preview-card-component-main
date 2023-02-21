@@ -1,0 +1,33 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+}
+
+.img {
+    background-image: url(./images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 500px;
+}
+
+.content {
+    width: 250px;
+    height: 500px;
+}
